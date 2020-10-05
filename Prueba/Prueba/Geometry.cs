@@ -1,7 +1,7 @@
 ﻿
 using System.Net.NetworkInformation;
 
-namespace Vectores011020
+namespace Prueba
 {
     class Geometry
     {
@@ -29,10 +29,10 @@ namespace Vectores011020
             return aux;
         }
 
-        public static bool AreOverlapping(double x1, double y1, double x2, double y2, double r1, double r2)
-        {
-            double aux = r1 + r2;
+        //public static bool AreOverlapping(double x1, double y1, double x2, double y2, double r1, double r2)
+        //{
+        //   double aux = r1 + r2;
 
-        }
+        //}
     }
 }

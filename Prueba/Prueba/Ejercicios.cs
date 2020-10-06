@@ -1,4 +1,5 @@
 ﻿using System.Net.NetworkInformation;
+using System.Runtime.CompilerServices;
 
 namespace Prueba
 {
@@ -34,10 +35,9 @@ namespace Prueba
 
         // Ejercicio 3: Hacer un programa que imprima si un número es primo o no
 
-        public static void Ejercicio3(int n)
+        public static void Ejercicio3()
         {
-            Misc.IsPrime(700);
-                
+            System.Console.WriteLine(Misc.IsPrime(60));
         }
     }
 }

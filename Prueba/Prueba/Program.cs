@@ -22,6 +22,7 @@ namespace Prueba
 
             string ss = s1.GetNameTwice();
 
+
         }
     }
 }
